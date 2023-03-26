@@ -4,10 +4,9 @@
     "description": "Auth service for microservice application",
     "main": "src/server.ts",
     "scripts": {
-        "start": "ts-node src/server.ts",
+        "start": "nodemon src/server.ts",
         "tsoa": "tsoa routes && tsoa swagger",
-        "seed": "ts-node prisma/seed.ts",
-        "dev" : "nodemon src/server.ts"
+        "seed": "ts-node prisma/seed.ts"
     },
     "keywords": [],
     "author": "",
