@@ -37,8 +37,6 @@ async function main() {
 
   const user = await UserModel.create({
       data : {
-          firstName : "becker",
-          lastName : "kadji",
           email: "kadjibecker@gmail.com",
           roleId: USER_ROLE.ROOT,
           password : bcrypt.hashSync('password',10)
