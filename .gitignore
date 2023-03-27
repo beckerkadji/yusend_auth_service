@@ -44,7 +44,7 @@ node_modules/
 jspm_packages/
 
 # Migration directories
-prisma/migrations
+####prisma/migrations
 
 # Snowpack dependency directory (https://snowpack.dev/)
 web_modules/
@@ -199,3 +199,4 @@ config/config.ts
 .DS_Store
 
 #swagger.json files
+####build/swagger.json
