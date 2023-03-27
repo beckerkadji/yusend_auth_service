@@ -1,5 +1,5 @@
 {
-    "name": "Yusend authentication service",
+    "name": "Yusend-authentication-service",
     "version": "1.0.0",
     "description": "Auth service for yusend application",
     "main": "src/server.ts",
