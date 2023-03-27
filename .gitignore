@@ -199,4 +199,3 @@ config/config.ts
 .DS_Store
 
 #swagger.json files
-build/swagger.json
